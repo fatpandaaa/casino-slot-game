@@ -1,0 +1,1104 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25231C2517591DCB0088666D /* libFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25231C2417591DCB0088666D /* libFlurry.a */; };
+		25231C2C17591E930088666D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25231C2B17591E930088666D /* SystemConfiguration.framework */; };
+		255928511768D3F60056BDAF /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255928501768D3F60056BDAF /* Social.framework */; };
+		25E451D8174FEB6D0035A8EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E451D7174FEB6D0035A8EA /* UIKit.framework */; };
+		25E451DA174FEB6D0035A8EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E451D9174FEB6D0035A8EA /* Foundation.framework */; };
+		25E451DC174FEB6D0035A8EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E451DB174FEB6D0035A8EA /* CoreGraphics.framework */; };
+		25E451E2174FEB6E0035A8EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25E451E0174FEB6E0035A8EA /* InfoPlist.strings */; };
+		25E451E4174FEB6E0035A8EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E451E3174FEB6E0035A8EA /* main.m */; };
+		25E451E8174FEB6E0035A8EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E451E7174FEB6E0035A8EA /* AppDelegate.m */; };
+		25E451F1174FEB6F0035A8EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E451F0174FEB6F0035A8EA /* ViewController.m */; };
+		25E451F4174FEB6F0035A8EA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25E451F2174FEB6F0035A8EA /* ViewController.xib */; };
+		25E451FC174FEB710035A8EA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E451FB174FEB710035A8EA /* SenTestingKit.framework */; };
+		25E451FD174FEB710035A8EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E451D7174FEB6D0035A8EA /* UIKit.framework */; };
+		25E451FE174FEB710035A8EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E451D9174FEB6D0035A8EA /* Foundation.framework */; };
+		25E45206174FEB710035A8EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25E45204174FEB710035A8EA /* InfoPlist.strings */; };
+		25E45209174FEB710035A8EA /* Liberty_BellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E45208174FEB710035A8EA /* Liberty_BellTests.m */; };
+		25E45217174FEE590035A8EA /* config.ini in Resources */ = {isa = PBXBuildFile; fileRef = 25E45216174FEE590035A8EA /* config.ini */; };
+		25E4521B174FEEEE0035A8EA /* General.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E4521A174FEEEE0035A8EA /* General.m */; };
+		25E4521E1750A9980035A8EA /* GameMechanics.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E4521D1750A9980035A8EA /* GameMechanics.m */; };
+		25E452211750FFBE0035A8EA /* GameCenterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E452201750FFBE0035A8EA /* GameCenterManager.m */; };
+		25E452231750FFEF0035A8EA /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E452221750FFEF0035A8EA /* GameKit.framework */; };
+		25E45227175202670035A8EA /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E45225175202660035A8EA /* HelpViewController.m */; };
+		25E45228175202670035A8EA /* HelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25E45226175202660035A8EA /* HelpViewController.xib */; };
+		25E4522F17520CAD0035A8EA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E4522E17520CAD0035A8EA /* AVFoundation.framework */; };
+		25E4523217520CDA0035A8EA /* Audio.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E4523117520CDA0035A8EA /* Audio.m */; };
+		25F5F47C1770CEA80065A168 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F5F47B1770CEA80065A168 /* StoreKit.framework */; };
+		25F5F4961771FACA0065A168 /* LiberationSansNarrow-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25F5F4951771FACA0065A168 /* LiberationSansNarrow-Regular.ttf */; };
+		25F5F4C8177253B40065A168 /* steelfish rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25F5F4C7177253B40065A168 /* steelfish rg.ttf */; };
+		25F5F4CE17735A820065A168 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F5F4CD17735A820065A168 /* iAd.framework */; };
+		25F5F4D3177379A70065A168 /* libChartboost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F5F4D1177379A70065A168 /* libChartboost.a */; };
+		25F5F4D4177379A80065A168 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 25F5F4D2177379A70065A168 /* README.md */; };
+		25F5F4D6177379C00065A168 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F5F4D5177379C00065A168 /* QuartzCore.framework */; };
+		25F5F4D817737A440065A168 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F5F4D717737A440065A168 /* AdSupport.framework */; };
+		E00D7EF31849E33E00139901 /* 14 Smooth Jazz 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E00D7EAE1849E33E00139901 /* 14 Smooth Jazz 1.mp3 */; };
+		E00D7EF41849E33E00139901 /* Best of Smooth Jazz Guitar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E00D7EAF1849E33E00139901 /* Best of Smooth Jazz Guitar.mp3 */; };
+		E00D7EF51849E33E00139901 /* Feels So Good.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E00D7EB01849E33E00139901 /* Feels So Good.mp3 */; };
+		E00D7EF61849E33E00139901 /* fx-appear.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00D7EB11849E33E00139901 /* fx-appear.wav */; };
+		E00D7EF71849E33E00139901 /* fx-arm-pulled.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00D7EB21849E33E00139901 /* fx-arm-pulled.wav */; };
+		E00D7EF81849E33E00139901 /* fx-cheers.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00D7EB31849E33E00139901 /* fx-cheers.wav */; };
+		E00D7EF91849E33E00139901 /* fx-coin-dropping.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00D7EB41849E33E00139901 /* fx-coin-dropping.wav */; };
+		E00D7EFA1849E33E00139901 /* fx-insert-coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00D7EB51849E33E00139901 /* fx-insert-coin.wav */; };
+		E00D7EFB1849E33E00139901 /* fx-jackpot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E00D7EB61849E33E00139901 /* fx-jackpot.mp3 */; };
+		E00D7EFC1849E33E00139901 /* fx-pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00D7EB71849E33E00139901 /* fx-pop.wav */; };
+		E00D7EFD1849E33E00139901 /* fx-reel-click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E00D7EB81849E33E00139901 /* fx-reel-click.mp3 */; };
+		E00D7EFE1849E33E00139901 /* fx-reel-stop.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00D7EB91849E33E00139901 /* fx-reel-stop.wav */; };
+		E00D7EFF1849E33E00139901 /* fx-slide.aif in Resources */ = {isa = PBXBuildFile; fileRef = E00D7EBA1849E33E00139901 /* fx-slide.aif */; };
+		E00D7F001849E33E00139901 /* fx-whoosh.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00D7EBB1849E33E00139901 /* fx-whoosh.wav */; };
+		E00D7F011849E33E00139901 /* fx-winning-combination.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00D7EBC1849E33E00139901 /* fx-winning-combination.wav */; };
+		E00D7F021849E33E00139901 /* Gillespie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E00D7EBD1849E33E00139901 /* Gillespie.mp3 */; };
+		E00D7F031849E33E00139901 /* Grover Washington.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E00D7EBE1849E33E00139901 /* Grover Washington.mp3 */; };
+		E00D7F041849E33E00139901 /* KennyG & George Benson.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E00D7EBF1849E33E00139901 /* KennyG & George Benson.mp3 */; };
+		E00D7F051849E33E00139901 /* MY_DAY_OFF.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E00D7EC01849E33E00139901 /* MY_DAY_OFF.mp3 */; };
+		E00D7F061849E33E00139901 /* Relaxation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E00D7EC11849E33E00139901 /* Relaxation.mp3 */; };
+		E00D7F071849E33E00139901 /* Smooth jazz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E00D7EC21849E33E00139901 /* Smooth jazz.mp3 */; };
+		E00D7F081849E33E00139901 /* The_Day_of_Daze.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E00D7EC31849E33E00139901 /* The_Day_of_Daze.mp3 */; };
+		E0A7899A1849E62D00EBC489 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789441849E62D00EBC489 /* Default-568h@2x.png */; };
+		E0A7899B1849E62D00EBC489 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789451849E62D00EBC489 /* Default.png */; };
+		E0A7899C1849E62D00EBC489 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789461849E62D00EBC489 /* Default@2x.png */; };
+		E0A7899D1849E62D00EBC489 /* Default@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789471849E62D00EBC489 /* Default@ipad.png */; };
+		E0A7899E1849E62D00EBC489 /* Default@ipad2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789481849E62D00EBC489 /* Default@ipad2x.png */; };
+		E0A7899F1849E62D00EBC489 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7894A1849E62D00EBC489 /* Icon.png */; };
+		E0A789A01849E62D00EBC489 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7894B1849E62D00EBC489 /* Icon@2x.png */; };
+		E0A789A11849E62D00EBC489 /* icon_29.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7894C1849E62D00EBC489 /* icon_29.png */; };
+		E0A789A21849E62D00EBC489 /* icon_29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7894D1849E62D00EBC489 /* icon_29@2x.png */; };
+		E0A789A31849E62D00EBC489 /* icon_40.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7894E1849E62D00EBC489 /* icon_40.png */; };
+		E0A789A41849E62D00EBC489 /* icon_40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7894F1849E62D00EBC489 /* icon_40@2x.png */; };
+		E0A789A51849E62D00EBC489 /* icon_512.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789501849E62D00EBC489 /* icon_512.png */; };
+		E0A789A61849E62D00EBC489 /* icon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789511849E62D00EBC489 /* icon_57.png */; };
+		E0A789A71849E62D00EBC489 /* icon_57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789521849E62D00EBC489 /* icon_57@2x.png */; };
+		E0A789A81849E62D00EBC489 /* icon_60.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789531849E62D00EBC489 /* icon_60.png */; };
+		E0A789A91849E62D00EBC489 /* icon_60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789541849E62D00EBC489 /* icon_60@2x.png */; };
+		E0A789AA1849E62D00EBC489 /* icon_72.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789551849E62D00EBC489 /* icon_72.png */; };
+		E0A789AB1849E62D00EBC489 /* arrow-down@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789571849E62D00EBC489 /* arrow-down@ipad.png */; };
+		E0A789AC1849E62D00EBC489 /* arrow-up@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789581849E62D00EBC489 /* arrow-up@ipad.png */; };
+		E0A789AD1849E62D00EBC489 /* background@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789591849E62D00EBC489 /* background@ipad.png */; };
+		E0A789AE1849E62D00EBC489 /* bell@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7895A1849E62D00EBC489 /* bell@ipad.png */; };
+		E0A789AF1849E62D00EBC489 /* bet-button-off@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7895B1849E62D00EBC489 /* bet-button-off@ipad.png */; };
+		E0A789B01849E62D00EBC489 /* bet-button-on@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7895C1849E62D00EBC489 /* bet-button-on@ipad.png */; };
+		E0A789B11849E62D00EBC489 /* bulb@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7895D1849E62D00EBC489 /* bulb@ipad.png */; };
+		E0A789B21849E62D00EBC489 /* buy-button-off@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7895E1849E62D00EBC489 /* buy-button-off@ipad.png */; };
+		E0A789B31849E62D00EBC489 /* buy-button-on@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7895F1849E62D00EBC489 /* buy-button-on@ipad.png */; };
+		E0A789B41849E62D00EBC489 /* buy-credits-button@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789601849E62D00EBC489 /* buy-credits-button@ipad.png */; };
+		E0A789B51849E62D00EBC489 /* facebook-button@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789611849E62D00EBC489 /* facebook-button@ipad.png */; };
+		E0A789B61849E62D00EBC489 /* game-center-button-off@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789621849E62D00EBC489 /* game-center-button-off@ipad.png */; };
+		E0A789B71849E62D00EBC489 /* game-center-button-on@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789631849E62D00EBC489 /* game-center-button-on@ipad.png */; };
+		E0A789B81849E62D00EBC489 /* game-center-on@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789641849E62D00EBC489 /* game-center-on@ipad.png */; };
+		E0A789B91849E62D00EBC489 /* grapes@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789651849E62D00EBC489 /* grapes@ipad.png */; };
+		E0A789BA1849E62D00EBC489 /* help-button-off@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789661849E62D00EBC489 /* help-button-off@ipad.png */; };
+		E0A789BB1849E62D00EBC489 /* help-button-on@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789671849E62D00EBC489 /* help-button-on@ipad.png */; };
+		E0A789BC1849E62D00EBC489 /* history-button@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789681849E62D00EBC489 /* history-button@ipad.png */; };
+		E0A789BD1849E62D00EBC489 /* lemon@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789691849E62D00EBC489 /* lemon@ipad.png */; };
+		E0A789BE1849E62D00EBC489 /* lever@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7896A1849E62D00EBC489 /* lever@ipad.png */; };
+		E0A789BF1849E62D00EBC489 /* luck@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7896B1849E62D00EBC489 /* luck@ipad.png */; };
+		E0A789C01849E62D00EBC489 /* machine@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7896C1849E62D00EBC489 /* machine@ipad.png */; };
+		E0A789C11849E62D00EBC489 /* maxbet-button-off@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7896D1849E62D00EBC489 /* maxbet-button-off@ipad.png */; };
+		E0A789C21849E62D00EBC489 /* maxbet-button-on@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7896E1849E62D00EBC489 /* maxbet-button-on@ipad.png */; };
+		E0A789C31849E62D00EBC489 /* music-button-off@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7896F1849E62D00EBC489 /* music-button-off@ipad.png */; };
+		E0A789C41849E62D00EBC489 /* music-button-on@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789701849E62D00EBC489 /* music-button-on@ipad.png */; };
+		E0A789C51849E62D00EBC489 /* payouts@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789711849E62D00EBC489 /* payouts@ipad.png */; };
+		E0A789C61849E62D00EBC489 /* pull-button-off@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789721849E62D00EBC489 /* pull-button-off@ipad.png */; };
+		E0A789C71849E62D00EBC489 /* pull-button-on@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789731849E62D00EBC489 /* pull-button-on@ipad.png */; };
+		E0A789C81849E62D00EBC489 /* seven@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789741849E62D00EBC489 /* seven@ipad.png */; };
+		E0A789C91849E62D00EBC489 /* twitter-button@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789751849E62D00EBC489 /* twitter-button@ipad.png */; };
+		E0A789CA1849E62D00EBC489 /* vegas-lights@ipad@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789761849E62D00EBC489 /* vegas-lights@ipad@ipad.png */; };
+		E0A789CB1849E62D00EBC489 /* wildcard@ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789771849E62D00EBC489 /* wildcard@ipad.png */; };
+		E0A789CC1849E62D00EBC489 /* arrow-down.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789791849E62D00EBC489 /* arrow-down.png */; };
+		E0A789CD1849E62D00EBC489 /* arrow-up.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7897A1849E62D00EBC489 /* arrow-up.png */; };
+		E0A789CE1849E62D00EBC489 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7897B1849E62D00EBC489 /* background.png */; };
+		E0A789CF1849E62D00EBC489 /* bell.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7897C1849E62D00EBC489 /* bell.png */; };
+		E0A789D01849E62D00EBC489 /* bet-button-off.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7897D1849E62D00EBC489 /* bet-button-off.png */; };
+		E0A789D11849E62D00EBC489 /* bet-button-on.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7897E1849E62D00EBC489 /* bet-button-on.png */; };
+		E0A789D21849E62D00EBC489 /* bulb.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7897F1849E62D00EBC489 /* bulb.png */; };
+		E0A789D31849E62D00EBC489 /* buy-button-off.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789801849E62D00EBC489 /* buy-button-off.png */; };
+		E0A789D41849E62D00EBC489 /* buy-button-on.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789811849E62D00EBC489 /* buy-button-on.png */; };
+		E0A789D51849E62D00EBC489 /* buy-credits-button.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789821849E62D00EBC489 /* buy-credits-button.png */; };
+		E0A789D61849E62D00EBC489 /* facebook-button.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789831849E62D00EBC489 /* facebook-button.png */; };
+		E0A789D71849E62D00EBC489 /* game-center-button-off.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789841849E62D00EBC489 /* game-center-button-off.png */; };
+		E0A789D81849E62D00EBC489 /* game-center-button-on.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789851849E62D00EBC489 /* game-center-button-on.png */; };
+		E0A789D91849E62D00EBC489 /* game-center-on.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789861849E62D00EBC489 /* game-center-on.png */; };
+		E0A789DA1849E62D00EBC489 /* grapes.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789871849E62D00EBC489 /* grapes.png */; };
+		E0A789DB1849E62D00EBC489 /* help-button-off.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789881849E62D00EBC489 /* help-button-off.png */; };
+		E0A789DC1849E62D00EBC489 /* help-button-on.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789891849E62D00EBC489 /* help-button-on.png */; };
+		E0A789DD1849E62D00EBC489 /* history-button.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7898A1849E62D00EBC489 /* history-button.png */; };
+		E0A789DE1849E62D00EBC489 /* lemon.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7898B1849E62D00EBC489 /* lemon.png */; };
+		E0A789DF1849E62D00EBC489 /* lever.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7898C1849E62D00EBC489 /* lever.png */; };
+		E0A789E01849E62D00EBC489 /* luck.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7898D1849E62D00EBC489 /* luck.png */; };
+		E0A789E11849E62D00EBC489 /* machine.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7898E1849E62D00EBC489 /* machine.png */; };
+		E0A789E21849E62D00EBC489 /* maxbet-button-off.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A7898F1849E62D00EBC489 /* maxbet-button-off.png */; };
+		E0A789E31849E62D00EBC489 /* maxbet-button-on.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789901849E62D00EBC489 /* maxbet-button-on.png */; };
+		E0A789E41849E62D00EBC489 /* music-button-off.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789911849E62D00EBC489 /* music-button-off.png */; };
+		E0A789E51849E62D00EBC489 /* music-button-on.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789921849E62D00EBC489 /* music-button-on.png */; };
+		E0A789E61849E62D00EBC489 /* payouts.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789931849E62D00EBC489 /* payouts.png */; };
+		E0A789E71849E62D00EBC489 /* pull-button-off.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789941849E62D00EBC489 /* pull-button-off.png */; };
+		E0A789E81849E62D00EBC489 /* pull-button-on.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789951849E62D00EBC489 /* pull-button-on.png */; };
+		E0A789E91849E62D00EBC489 /* seven.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789961849E62D00EBC489 /* seven.png */; };
+		E0A789EA1849E62D00EBC489 /* twitter-button.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789971849E62D00EBC489 /* twitter-button.png */; };
+		E0A789EB1849E62D00EBC489 /* vegas-lights.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789981849E62D00EBC489 /* vegas-lights.png */; };
+		E0A789EC1849E62D00EBC489 /* wildcard.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A789991849E62D00EBC489 /* wildcard.png */; };
+		E0E789091848AD280004DDCA /* HelpViewController-Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0E789081848AD280004DDCA /* HelpViewController-Ipad.xib */; };
+		E0E7890B1848B7710004DDCA /* ViewController-Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0E7890A1848B7710004DDCA /* ViewController-Ipad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25E451FF174FEB710035A8EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25E451CC174FEB6C0035A8EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25E451D3174FEB6C0035A8EA;
+			remoteInfo = "Liberty Bell";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25231C2317591DCB0088666D /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		25231C2417591DCB0088666D /* libFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry.a; sourceTree = "<group>"; };
+		25231C2B17591E930088666D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		255928501768D3F60056BDAF /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		25E451D4174FEB6C0035A8EA /* Las Vegas Hot Slots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Las Vegas Hot Slots.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E451D7174FEB6D0035A8EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25E451D9174FEB6D0035A8EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25E451DB174FEB6D0035A8EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25E451DF174FEB6D0035A8EA /* Las Vegas Hot Slots-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Las Vegas Hot Slots-Info.plist"; sourceTree = "<group>"; };
+		25E451E1174FEB6E0035A8EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25E451E3174FEB6E0035A8EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25E451E5174FEB6E0035A8EA /* Las Vegas Hot Slots-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Las Vegas Hot Slots-Prefix.pch"; sourceTree = "<group>"; };
+		25E451E6174FEB6E0035A8EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25E451E7174FEB6E0035A8EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25E451EF174FEB6F0035A8EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25E451F0174FEB6F0035A8EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25E451F3174FEB6F0035A8EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		25E451FA174FEB710035A8EA /* Las Vegas Hot SlotsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Las Vegas Hot SlotsTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E451FB174FEB710035A8EA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		25E45203174FEB710035A8EA /* Las Vegas Hot SlotsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Las Vegas Hot SlotsTests-Info.plist"; sourceTree = "<group>"; };
+		25E45205174FEB710035A8EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25E45207174FEB710035A8EA /* Liberty_BellTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Liberty_BellTests.h; sourceTree = "<group>"; };
+		25E45208174FEB710035A8EA /* Liberty_BellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Liberty_BellTests.m; sourceTree = "<group>"; };
+		25E45216174FEE590035A8EA /* config.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.ini; sourceTree = "<group>"; };
+		25E45219174FEEEE0035A8EA /* General.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = General.h; sourceTree = "<group>"; };
+		25E4521A174FEEEE0035A8EA /* General.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = General.m; sourceTree = "<group>"; };
+		25E4521C1750A9980035A8EA /* GameMechanics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMechanics.h; sourceTree = "<group>"; };
+		25E4521D1750A9980035A8EA /* GameMechanics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMechanics.m; sourceTree = "<group>"; };
+		25E4521F1750FFBE0035A8EA /* GameCenterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCenterManager.h; sourceTree = "<group>"; };
+		25E452201750FFBE0035A8EA /* GameCenterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCenterManager.m; sourceTree = "<group>"; };
+		25E452221750FFEF0035A8EA /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		25E45224175202660035A8EA /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		25E45225175202660035A8EA /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		25E45226175202660035A8EA /* HelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpViewController.xib; sourceTree = "<group>"; };
+		25E4522E17520CAD0035A8EA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		25E4523017520CDA0035A8EA /* Audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Audio.h; sourceTree = "<group>"; };
+		25E4523117520CDA0035A8EA /* Audio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Audio.m; sourceTree = "<group>"; };
+		25F5F47B1770CEA80065A168 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		25F5F4951771FACA0065A168 /* LiberationSansNarrow-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiberationSansNarrow-Regular.ttf"; sourceTree = "<group>"; };
+		25F5F4C7177253B40065A168 /* steelfish rg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "steelfish rg.ttf"; sourceTree = "<group>"; };
+		25F5F4CD17735A820065A168 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		25F5F4D0177379A70065A168 /* Chartboost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chartboost.h; sourceTree = "<group>"; };
+		25F5F4D1177379A70065A168 /* libChartboost.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libChartboost.a; sourceTree = "<group>"; };
+		25F5F4D2177379A70065A168 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		25F5F4D5177379C00065A168 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		25F5F4D717737A440065A168 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		E00D7EAE1849E33E00139901 /* 14 Smooth Jazz 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "14 Smooth Jazz 1.mp3"; sourceTree = "<group>"; };
+		E00D7EAF1849E33E00139901 /* Best of Smooth Jazz Guitar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Best of Smooth Jazz Guitar.mp3"; sourceTree = "<group>"; };
+		E00D7EB01849E33E00139901 /* Feels So Good.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Feels So Good.mp3"; sourceTree = "<group>"; };
+		E00D7EB11849E33E00139901 /* fx-appear.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "fx-appear.wav"; sourceTree = "<group>"; };
+		E00D7EB21849E33E00139901 /* fx-arm-pulled.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "fx-arm-pulled.wav"; sourceTree = "<group>"; };
+		E00D7EB31849E33E00139901 /* fx-cheers.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "fx-cheers.wav"; sourceTree = "<group>"; };
+		E00D7EB41849E33E00139901 /* fx-coin-dropping.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "fx-coin-dropping.wav"; sourceTree = "<group>"; };
+		E00D7EB51849E33E00139901 /* fx-insert-coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "fx-insert-coin.wav"; sourceTree = "<group>"; };
+		E00D7EB61849E33E00139901 /* fx-jackpot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "fx-jackpot.mp3"; sourceTree = "<group>"; };
+		E00D7EB71849E33E00139901 /* fx-pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "fx-pop.wav"; sourceTree = "<group>"; };
+		E00D7EB81849E33E00139901 /* fx-reel-click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "fx-reel-click.mp3"; sourceTree = "<group>"; };
+		E00D7EB91849E33E00139901 /* fx-reel-stop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "fx-reel-stop.wav"; sourceTree = "<group>"; };
+		E00D7EBA1849E33E00139901 /* fx-slide.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fx-slide.aif"; sourceTree = "<group>"; };
+		E00D7EBB1849E33E00139901 /* fx-whoosh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "fx-whoosh.wav"; sourceTree = "<group>"; };
+		E00D7EBC1849E33E00139901 /* fx-winning-combination.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "fx-winning-combination.wav"; sourceTree = "<group>"; };
+		E00D7EBD1849E33E00139901 /* Gillespie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Gillespie.mp3; sourceTree = "<group>"; };
+		E00D7EBE1849E33E00139901 /* Grover Washington.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Grover Washington.mp3"; sourceTree = "<group>"; };
+		E00D7EBF1849E33E00139901 /* KennyG & George Benson.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "KennyG & George Benson.mp3"; sourceTree = "<group>"; };
+		E00D7EC01849E33E00139901 /* MY_DAY_OFF.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MY_DAY_OFF.mp3; sourceTree = "<group>"; };
+		E00D7EC11849E33E00139901 /* Relaxation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Relaxation.mp3; sourceTree = "<group>"; };
+		E00D7EC21849E33E00139901 /* Smooth jazz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Smooth jazz.mp3"; sourceTree = "<group>"; };
+		E00D7EC31849E33E00139901 /* The_Day_of_Daze.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = The_Day_of_Daze.mp3; sourceTree = "<group>"; };
+		E0A789441849E62D00EBC489 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E0A789451849E62D00EBC489 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E0A789461849E62D00EBC489 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E0A789471849E62D00EBC489 /* Default@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@ipad.png"; sourceTree = "<group>"; };
+		E0A789481849E62D00EBC489 /* Default@ipad2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@ipad2x.png"; sourceTree = "<group>"; };
+		E0A7894A1849E62D00EBC489 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E0A7894B1849E62D00EBC489 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		E0A7894C1849E62D00EBC489 /* icon_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_29.png; sourceTree = "<group>"; };
+		E0A7894D1849E62D00EBC489 /* icon_29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_29@2x.png"; sourceTree = "<group>"; };
+		E0A7894E1849E62D00EBC489 /* icon_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_40.png; sourceTree = "<group>"; };
+		E0A7894F1849E62D00EBC489 /* icon_40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_40@2x.png"; sourceTree = "<group>"; };
+		E0A789501849E62D00EBC489 /* icon_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_512.png; sourceTree = "<group>"; };
+		E0A789511849E62D00EBC489 /* icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_57.png; sourceTree = "<group>"; };
+		E0A789521849E62D00EBC489 /* icon_57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_57@2x.png"; sourceTree = "<group>"; };
+		E0A789531849E62D00EBC489 /* icon_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_60.png; sourceTree = "<group>"; };
+		E0A789541849E62D00EBC489 /* icon_60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_60@2x.png"; sourceTree = "<group>"; };
+		E0A789551849E62D00EBC489 /* icon_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_72.png; sourceTree = "<group>"; };
+		E0A789571849E62D00EBC489 /* arrow-down@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-down@ipad.png"; sourceTree = "<group>"; };
+		E0A789581849E62D00EBC489 /* arrow-up@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-up@ipad.png"; sourceTree = "<group>"; };
+		E0A789591849E62D00EBC489 /* background@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@ipad.png"; sourceTree = "<group>"; };
+		E0A7895A1849E62D00EBC489 /* bell@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bell@ipad.png"; sourceTree = "<group>"; };
+		E0A7895B1849E62D00EBC489 /* bet-button-off@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bet-button-off@ipad.png"; sourceTree = "<group>"; };
+		E0A7895C1849E62D00EBC489 /* bet-button-on@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bet-button-on@ipad.png"; sourceTree = "<group>"; };
+		E0A7895D1849E62D00EBC489 /* bulb@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bulb@ipad.png"; sourceTree = "<group>"; };
+		E0A7895E1849E62D00EBC489 /* buy-button-off@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buy-button-off@ipad.png"; sourceTree = "<group>"; };
+		E0A7895F1849E62D00EBC489 /* buy-button-on@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buy-button-on@ipad.png"; sourceTree = "<group>"; };
+		E0A789601849E62D00EBC489 /* buy-credits-button@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buy-credits-button@ipad.png"; sourceTree = "<group>"; };
+		E0A789611849E62D00EBC489 /* facebook-button@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook-button@ipad.png"; sourceTree = "<group>"; };
+		E0A789621849E62D00EBC489 /* game-center-button-off@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game-center-button-off@ipad.png"; sourceTree = "<group>"; };
+		E0A789631849E62D00EBC489 /* game-center-button-on@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game-center-button-on@ipad.png"; sourceTree = "<group>"; };
+		E0A789641849E62D00EBC489 /* game-center-on@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game-center-on@ipad.png"; sourceTree = "<group>"; };
+		E0A789651849E62D00EBC489 /* grapes@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grapes@ipad.png"; sourceTree = "<group>"; };
+		E0A789661849E62D00EBC489 /* help-button-off@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "help-button-off@ipad.png"; sourceTree = "<group>"; };
+		E0A789671849E62D00EBC489 /* help-button-on@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "help-button-on@ipad.png"; sourceTree = "<group>"; };
+		E0A789681849E62D00EBC489 /* history-button@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "history-button@ipad.png"; sourceTree = "<group>"; };
+		E0A789691849E62D00EBC489 /* lemon@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lemon@ipad.png"; sourceTree = "<group>"; };
+		E0A7896A1849E62D00EBC489 /* lever@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lever@ipad.png"; sourceTree = "<group>"; };
+		E0A7896B1849E62D00EBC489 /* luck@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "luck@ipad.png"; sourceTree = "<group>"; };
+		E0A7896C1849E62D00EBC489 /* machine@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "machine@ipad.png"; sourceTree = "<group>"; };
+		E0A7896D1849E62D00EBC489 /* maxbet-button-off@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "maxbet-button-off@ipad.png"; sourceTree = "<group>"; };
+		E0A7896E1849E62D00EBC489 /* maxbet-button-on@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "maxbet-button-on@ipad.png"; sourceTree = "<group>"; };
+		E0A7896F1849E62D00EBC489 /* music-button-off@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "music-button-off@ipad.png"; sourceTree = "<group>"; };
+		E0A789701849E62D00EBC489 /* music-button-on@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "music-button-on@ipad.png"; sourceTree = "<group>"; };
+		E0A789711849E62D00EBC489 /* payouts@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "payouts@ipad.png"; sourceTree = "<group>"; };
+		E0A789721849E62D00EBC489 /* pull-button-off@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pull-button-off@ipad.png"; sourceTree = "<group>"; };
+		E0A789731849E62D00EBC489 /* pull-button-on@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pull-button-on@ipad.png"; sourceTree = "<group>"; };
+		E0A789741849E62D00EBC489 /* seven@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seven@ipad.png"; sourceTree = "<group>"; };
+		E0A789751849E62D00EBC489 /* twitter-button@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter-button@ipad.png"; sourceTree = "<group>"; };
+		E0A789761849E62D00EBC489 /* vegas-lights@ipad@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vegas-lights@ipad@ipad.png"; sourceTree = "<group>"; };
+		E0A789771849E62D00EBC489 /* wildcard@ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wildcard@ipad.png"; sourceTree = "<group>"; };
+		E0A789791849E62D00EBC489 /* arrow-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-down.png"; sourceTree = "<group>"; };
+		E0A7897A1849E62D00EBC489 /* arrow-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-up.png"; sourceTree = "<group>"; };
+		E0A7897B1849E62D00EBC489 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		E0A7897C1849E62D00EBC489 /* bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bell.png; sourceTree = "<group>"; };
+		E0A7897D1849E62D00EBC489 /* bet-button-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bet-button-off.png"; sourceTree = "<group>"; };
+		E0A7897E1849E62D00EBC489 /* bet-button-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bet-button-on.png"; sourceTree = "<group>"; };
+		E0A7897F1849E62D00EBC489 /* bulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bulb.png; sourceTree = "<group>"; };
+		E0A789801849E62D00EBC489 /* buy-button-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buy-button-off.png"; sourceTree = "<group>"; };
+		E0A789811849E62D00EBC489 /* buy-button-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buy-button-on.png"; sourceTree = "<group>"; };
+		E0A789821849E62D00EBC489 /* buy-credits-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buy-credits-button.png"; sourceTree = "<group>"; };
+		E0A789831849E62D00EBC489 /* facebook-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook-button.png"; sourceTree = "<group>"; };
+		E0A789841849E62D00EBC489 /* game-center-button-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game-center-button-off.png"; sourceTree = "<group>"; };
+		E0A789851849E62D00EBC489 /* game-center-button-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game-center-button-on.png"; sourceTree = "<group>"; };
+		E0A789861849E62D00EBC489 /* game-center-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game-center-on.png"; sourceTree = "<group>"; };
+		E0A789871849E62D00EBC489 /* grapes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grapes.png; sourceTree = "<group>"; };
+		E0A789881849E62D00EBC489 /* help-button-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "help-button-off.png"; sourceTree = "<group>"; };
+		E0A789891849E62D00EBC489 /* help-button-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "help-button-on.png"; sourceTree = "<group>"; };
+		E0A7898A1849E62D00EBC489 /* history-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "history-button.png"; sourceTree = "<group>"; };
+		E0A7898B1849E62D00EBC489 /* lemon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lemon.png; sourceTree = "<group>"; };
+		E0A7898C1849E62D00EBC489 /* lever.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lever.png; sourceTree = "<group>"; };
+		E0A7898D1849E62D00EBC489 /* luck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = luck.png; sourceTree = "<group>"; };
+		E0A7898E1849E62D00EBC489 /* machine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = machine.png; sourceTree = "<group>"; };
+		E0A7898F1849E62D00EBC489 /* maxbet-button-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "maxbet-button-off.png"; sourceTree = "<group>"; };
+		E0A789901849E62D00EBC489 /* maxbet-button-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "maxbet-button-on.png"; sourceTree = "<group>"; };
+		E0A789911849E62D00EBC489 /* music-button-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "music-button-off.png"; sourceTree = "<group>"; };
+		E0A789921849E62D00EBC489 /* music-button-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "music-button-on.png"; sourceTree = "<group>"; };
+		E0A789931849E62D00EBC489 /* payouts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = payouts.png; sourceTree = "<group>"; };
+		E0A789941849E62D00EBC489 /* pull-button-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pull-button-off.png"; sourceTree = "<group>"; };
+		E0A789951849E62D00EBC489 /* pull-button-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pull-button-on.png"; sourceTree = "<group>"; };
+		E0A789961849E62D00EBC489 /* seven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seven.png; sourceTree = "<group>"; };
+		E0A789971849E62D00EBC489 /* twitter-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter-button.png"; sourceTree = "<group>"; };
+		E0A789981849E62D00EBC489 /* vegas-lights.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vegas-lights.png"; sourceTree = "<group>"; };
+		E0A789991849E62D00EBC489 /* wildcard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wildcard.png; sourceTree = "<group>"; };
+		E0E789081848AD280004DDCA /* HelpViewController-Ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "HelpViewController-Ipad.xib"; sourceTree = "<group>"; };
+		E0E7890A1848B7710004DDCA /* ViewController-Ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ViewController-Ipad.xib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25E451D1174FEB6C0035A8EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F5F4D817737A440065A168 /* AdSupport.framework in Frameworks */,
+				25F5F4D6177379C00065A168 /* QuartzCore.framework in Frameworks */,
+				25F5F4CE17735A820065A168 /* iAd.framework in Frameworks */,
+				25F5F47C1770CEA80065A168 /* StoreKit.framework in Frameworks */,
+				255928511768D3F60056BDAF /* Social.framework in Frameworks */,
+				25231C2C17591E930088666D /* SystemConfiguration.framework in Frameworks */,
+				25E4522F17520CAD0035A8EA /* AVFoundation.framework in Frameworks */,
+				25E452231750FFEF0035A8EA /* GameKit.framework in Frameworks */,
+				25E451D8174FEB6D0035A8EA /* UIKit.framework in Frameworks */,
+				25E451DA174FEB6D0035A8EA /* Foundation.framework in Frameworks */,
+				25E451DC174FEB6D0035A8EA /* CoreGraphics.framework in Frameworks */,
+				25231C2517591DCB0088666D /* libFlurry.a in Frameworks */,
+				25F5F4D3177379A70065A168 /* libChartboost.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E451F6174FEB710035A8EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E451FC174FEB710035A8EA /* SenTestingKit.framework in Frameworks */,
+				25E451FD174FEB710035A8EA /* UIKit.framework in Frameworks */,
+				25E451FE174FEB710035A8EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25231C2217591DCB0088666D /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				25231C2317591DCB0088666D /* Flurry.h */,
+				25231C2417591DCB0088666D /* libFlurry.a */,
+			);
+			path = Flurry;
+			sourceTree = "<group>";
+		};
+		25E451CB174FEB6B0035A8EA = {
+			isa = PBXGroup;
+			children = (
+				E0A789431849E62D00EBC489 /* Default */,
+				E0A789491849E62D00EBC489 /* Icon */,
+				E0A789561849E62D00EBC489 /* Ipad */,
+				E0A789781849E62D00EBC489 /* Iphone */,
+				E00D7EAD1849E33E00139901 /* Sounds */,
+				25E451DD174FEB6D0035A8EA /* Las Vegas Hot Slots */,
+				25E45201174FEB710035A8EA /* Las Vegas Hot SlotsTests */,
+				25E451D6174FEB6C0035A8EA /* Frameworks */,
+				25E451D5174FEB6C0035A8EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25E451D5174FEB6C0035A8EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25E451D4174FEB6C0035A8EA /* Las Vegas Hot Slots.app */,
+				25E451FA174FEB710035A8EA /* Las Vegas Hot SlotsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25E451D6174FEB6C0035A8EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25F5F4D717737A440065A168 /* AdSupport.framework */,
+				25F5F4D5177379C00065A168 /* QuartzCore.framework */,
+				25F5F4CD17735A820065A168 /* iAd.framework */,
+				25F5F47B1770CEA80065A168 /* StoreKit.framework */,
+				255928501768D3F60056BDAF /* Social.framework */,
+				25231C2B17591E930088666D /* SystemConfiguration.framework */,
+				25E4522E17520CAD0035A8EA /* AVFoundation.framework */,
+				25E452221750FFEF0035A8EA /* GameKit.framework */,
+				25E451D7174FEB6D0035A8EA /* UIKit.framework */,
+				25E451D9174FEB6D0035A8EA /* Foundation.framework */,
+				25E451DB174FEB6D0035A8EA /* CoreGraphics.framework */,
+				25E451FB174FEB710035A8EA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25E451DD174FEB6D0035A8EA /* Las Vegas Hot Slots */ = {
+			isa = PBXGroup;
+			children = (
+				25F5F4CF177379A60065A168 /* Chartboost */,
+				25231C2217591DCB0088666D /* Flurry */,
+				25E452BB17552E580035A8EA /* Fonts */,
+				25E45218174FEED20035A8EA /* Class */,
+				25E45215174FEE440035A8EA /* Config */,
+				25E45214174FEC0D0035A8EA /* Nibs */,
+				25E45212174FEBF80035A8EA /* Views */,
+				25E451E6174FEB6E0035A8EA /* AppDelegate.h */,
+				25E451E7174FEB6E0035A8EA /* AppDelegate.m */,
+				25E451DE174FEB6D0035A8EA /* Supporting Files */,
+			);
+			name = "Las Vegas Hot Slots";
+			path = "Liberty Bell";
+			sourceTree = "<group>";
+		};
+		25E451DE174FEB6D0035A8EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25E451DF174FEB6D0035A8EA /* Las Vegas Hot Slots-Info.plist */,
+				25E451E0174FEB6E0035A8EA /* InfoPlist.strings */,
+				25E451E3174FEB6E0035A8EA /* main.m */,
+				25E451E5174FEB6E0035A8EA /* Las Vegas Hot Slots-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25E45201174FEB710035A8EA /* Las Vegas Hot SlotsTests */ = {
+			isa = PBXGroup;
+			children = (
+				25E45207174FEB710035A8EA /* Liberty_BellTests.h */,
+				25E45208174FEB710035A8EA /* Liberty_BellTests.m */,
+				25E45202174FEB710035A8EA /* Supporting Files */,
+			);
+			name = "Las Vegas Hot SlotsTests";
+			path = "Liberty BellTests";
+			sourceTree = "<group>";
+		};
+		25E45202174FEB710035A8EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25E45203174FEB710035A8EA /* Las Vegas Hot SlotsTests-Info.plist */,
+				25E45204174FEB710035A8EA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25E45212174FEBF80035A8EA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				25E45224175202660035A8EA /* HelpViewController.h */,
+				25E45225175202660035A8EA /* HelpViewController.m */,
+				25E451EF174FEB6F0035A8EA /* ViewController.h */,
+				25E451F0174FEB6F0035A8EA /* ViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		25E45214174FEC0D0035A8EA /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				25E45226175202660035A8EA /* HelpViewController.xib */,
+				E0E789081848AD280004DDCA /* HelpViewController-Ipad.xib */,
+				25E451F2174FEB6F0035A8EA /* ViewController.xib */,
+				E0E7890A1848B7710004DDCA /* ViewController-Ipad.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+		25E45215174FEE440035A8EA /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				25E45216174FEE590035A8EA /* config.ini */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		25E45218174FEED20035A8EA /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				25E4523017520CDA0035A8EA /* Audio.h */,
+				25E4523117520CDA0035A8EA /* Audio.m */,
+				25E4521F1750FFBE0035A8EA /* GameCenterManager.h */,
+				25E452201750FFBE0035A8EA /* GameCenterManager.m */,
+				25E45219174FEEEE0035A8EA /* General.h */,
+				25E4521A174FEEEE0035A8EA /* General.m */,
+				25E4521C1750A9980035A8EA /* GameMechanics.h */,
+				25E4521D1750A9980035A8EA /* GameMechanics.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		25E452BB17552E580035A8EA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				25F5F4C7177253B40065A168 /* steelfish rg.ttf */,
+				25F5F4951771FACA0065A168 /* LiberationSansNarrow-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		25F5F4CF177379A60065A168 /* Chartboost */ = {
+			isa = PBXGroup;
+			children = (
+				25F5F4D0177379A70065A168 /* Chartboost.h */,
+				25F5F4D1177379A70065A168 /* libChartboost.a */,
+				25F5F4D2177379A70065A168 /* README.md */,
+			);
+			path = Chartboost;
+			sourceTree = "<group>";
+		};
+		E00D7EAD1849E33E00139901 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E00D7EAE1849E33E00139901 /* 14 Smooth Jazz 1.mp3 */,
+				E00D7EAF1849E33E00139901 /* Best of Smooth Jazz Guitar.mp3 */,
+				E00D7EB01849E33E00139901 /* Feels So Good.mp3 */,
+				E00D7EB11849E33E00139901 /* fx-appear.wav */,
+				E00D7EB21849E33E00139901 /* fx-arm-pulled.wav */,
+				E00D7EB31849E33E00139901 /* fx-cheers.wav */,
+				E00D7EB41849E33E00139901 /* fx-coin-dropping.wav */,
+				E00D7EB51849E33E00139901 /* fx-insert-coin.wav */,
+				E00D7EB61849E33E00139901 /* fx-jackpot.mp3 */,
+				E00D7EB71849E33E00139901 /* fx-pop.wav */,
+				E00D7EB81849E33E00139901 /* fx-reel-click.mp3 */,
+				E00D7EB91849E33E00139901 /* fx-reel-stop.wav */,
+				E00D7EBA1849E33E00139901 /* fx-slide.aif */,
+				E00D7EBB1849E33E00139901 /* fx-whoosh.wav */,
+				E00D7EBC1849E33E00139901 /* fx-winning-combination.wav */,
+				E00D7EBD1849E33E00139901 /* Gillespie.mp3 */,
+				E00D7EBE1849E33E00139901 /* Grover Washington.mp3 */,
+				E00D7EBF1849E33E00139901 /* KennyG & George Benson.mp3 */,
+				E00D7EC01849E33E00139901 /* MY_DAY_OFF.mp3 */,
+				E00D7EC11849E33E00139901 /* Relaxation.mp3 */,
+				E00D7EC21849E33E00139901 /* Smooth jazz.mp3 */,
+				E00D7EC31849E33E00139901 /* The_Day_of_Daze.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		E0A789431849E62D00EBC489 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				E0A789441849E62D00EBC489 /* Default-568h@2x.png */,
+				E0A789451849E62D00EBC489 /* Default.png */,
+				E0A789461849E62D00EBC489 /* Default@2x.png */,
+				E0A789471849E62D00EBC489 /* Default@ipad.png */,
+				E0A789481849E62D00EBC489 /* Default@ipad2x.png */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		E0A789491849E62D00EBC489 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				E0A7894A1849E62D00EBC489 /* Icon.png */,
+				E0A7894B1849E62D00EBC489 /* Icon@2x.png */,
+				E0A7894C1849E62D00EBC489 /* icon_29.png */,
+				E0A7894D1849E62D00EBC489 /* icon_29@2x.png */,
+				E0A7894E1849E62D00EBC489 /* icon_40.png */,
+				E0A7894F1849E62D00EBC489 /* icon_40@2x.png */,
+				E0A789501849E62D00EBC489 /* icon_512.png */,
+				E0A789511849E62D00EBC489 /* icon_57.png */,
+				E0A789521849E62D00EBC489 /* icon_57@2x.png */,
+				E0A789531849E62D00EBC489 /* icon_60.png */,
+				E0A789541849E62D00EBC489 /* icon_60@2x.png */,
+				E0A789551849E62D00EBC489 /* icon_72.png */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+		E0A789561849E62D00EBC489 /* Ipad */ = {
+			isa = PBXGroup;
+			children = (
+				E0A789571849E62D00EBC489 /* arrow-down@ipad.png */,
+				E0A789581849E62D00EBC489 /* arrow-up@ipad.png */,
+				E0A789591849E62D00EBC489 /* background@ipad.png */,
+				E0A7895A1849E62D00EBC489 /* bell@ipad.png */,
+				E0A7895B1849E62D00EBC489 /* bet-button-off@ipad.png */,
+				E0A7895C1849E62D00EBC489 /* bet-button-on@ipad.png */,
+				E0A7895D1849E62D00EBC489 /* bulb@ipad.png */,
+				E0A7895E1849E62D00EBC489 /* buy-button-off@ipad.png */,
+				E0A7895F1849E62D00EBC489 /* buy-button-on@ipad.png */,
+				E0A789601849E62D00EBC489 /* buy-credits-button@ipad.png */,
+				E0A789611849E62D00EBC489 /* facebook-button@ipad.png */,
+				E0A789621849E62D00EBC489 /* game-center-button-off@ipad.png */,
+				E0A789631849E62D00EBC489 /* game-center-button-on@ipad.png */,
+				E0A789641849E62D00EBC489 /* game-center-on@ipad.png */,
+				E0A789651849E62D00EBC489 /* grapes@ipad.png */,
+				E0A789661849E62D00EBC489 /* help-button-off@ipad.png */,
+				E0A789671849E62D00EBC489 /* help-button-on@ipad.png */,
+				E0A789681849E62D00EBC489 /* history-button@ipad.png */,
+				E0A789691849E62D00EBC489 /* lemon@ipad.png */,
+				E0A7896A1849E62D00EBC489 /* lever@ipad.png */,
+				E0A7896B1849E62D00EBC489 /* luck@ipad.png */,
+				E0A7896C1849E62D00EBC489 /* machine@ipad.png */,
+				E0A7896D1849E62D00EBC489 /* maxbet-button-off@ipad.png */,
+				E0A7896E1849E62D00EBC489 /* maxbet-button-on@ipad.png */,
+				E0A7896F1849E62D00EBC489 /* music-button-off@ipad.png */,
+				E0A789701849E62D00EBC489 /* music-button-on@ipad.png */,
+				E0A789711849E62D00EBC489 /* payouts@ipad.png */,
+				E0A789721849E62D00EBC489 /* pull-button-off@ipad.png */,
+				E0A789731849E62D00EBC489 /* pull-button-on@ipad.png */,
+				E0A789741849E62D00EBC489 /* seven@ipad.png */,
+				E0A789751849E62D00EBC489 /* twitter-button@ipad.png */,
+				E0A789761849E62D00EBC489 /* vegas-lights@ipad@ipad.png */,
+				E0A789771849E62D00EBC489 /* wildcard@ipad.png */,
+			);
+			path = Ipad;
+			sourceTree = "<group>";
+		};
+		E0A789781849E62D00EBC489 /* Iphone */ = {
+			isa = PBXGroup;
+			children = (
+				E0A789791849E62D00EBC489 /* arrow-down.png */,
+				E0A7897A1849E62D00EBC489 /* arrow-up.png */,
+				E0A7897B1849E62D00EBC489 /* background.png */,
+				E0A7897C1849E62D00EBC489 /* bell.png */,
+				E0A7897D1849E62D00EBC489 /* bet-button-off.png */,
+				E0A7897E1849E62D00EBC489 /* bet-button-on.png */,
+				E0A7897F1849E62D00EBC489 /* bulb.png */,
+				E0A789801849E62D00EBC489 /* buy-button-off.png */,
+				E0A789811849E62D00EBC489 /* buy-button-on.png */,
+				E0A789821849E62D00EBC489 /* buy-credits-button.png */,
+				E0A789831849E62D00EBC489 /* facebook-button.png */,
+				E0A789841849E62D00EBC489 /* game-center-button-off.png */,
+				E0A789851849E62D00EBC489 /* game-center-button-on.png */,
+				E0A789861849E62D00EBC489 /* game-center-on.png */,
+				E0A789871849E62D00EBC489 /* grapes.png */,
+				E0A789881849E62D00EBC489 /* help-button-off.png */,
+				E0A789891849E62D00EBC489 /* help-button-on.png */,
+				E0A7898A1849E62D00EBC489 /* history-button.png */,
+				E0A7898B1849E62D00EBC489 /* lemon.png */,
+				E0A7898C1849E62D00EBC489 /* lever.png */,
+				E0A7898D1849E62D00EBC489 /* luck.png */,
+				E0A7898E1849E62D00EBC489 /* machine.png */,
+				E0A7898F1849E62D00EBC489 /* maxbet-button-off.png */,
+				E0A789901849E62D00EBC489 /* maxbet-button-on.png */,
+				E0A789911849E62D00EBC489 /* music-button-off.png */,
+				E0A789921849E62D00EBC489 /* music-button-on.png */,
+				E0A789931849E62D00EBC489 /* payouts.png */,
+				E0A789941849E62D00EBC489 /* pull-button-off.png */,
+				E0A789951849E62D00EBC489 /* pull-button-on.png */,
+				E0A789961849E62D00EBC489 /* seven.png */,
+				E0A789971849E62D00EBC489 /* twitter-button.png */,
+				E0A789981849E62D00EBC489 /* vegas-lights.png */,
+				E0A789991849E62D00EBC489 /* wildcard.png */,
+			);
+			path = Iphone;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25E451D3174FEB6C0035A8EA /* Las Vegas Hot Slots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E4520C174FEB710035A8EA /* Build configuration list for PBXNativeTarget "Las Vegas Hot Slots" */;
+			buildPhases = (
+				25E451D0174FEB6C0035A8EA /* Sources */,
+				25E451D1174FEB6C0035A8EA /* Frameworks */,
+				25E451D2174FEB6C0035A8EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Las Vegas Hot Slots";
+			productName = "Liberty Bell";
+			productReference = 25E451D4174FEB6C0035A8EA /* Las Vegas Hot Slots.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25E451F9174FEB710035A8EA /* Las Vegas Hot SlotsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E4520F174FEB710035A8EA /* Build configuration list for PBXNativeTarget "Las Vegas Hot SlotsTests" */;
+			buildPhases = (
+				25E451F5174FEB710035A8EA /* Sources */,
+				25E451F6174FEB710035A8EA /* Frameworks */,
+				25E451F7174FEB710035A8EA /* Resources */,
+				25E451F8174FEB710035A8EA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25E45200174FEB710035A8EA /* PBXTargetDependency */,
+			);
+			name = "Las Vegas Hot SlotsTests";
+			productName = "Liberty BellTests";
+			productReference = 25E451FA174FEB710035A8EA /* Las Vegas Hot SlotsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25E451CC174FEB6C0035A8EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Lehel Medves";
+			};
+			buildConfigurationList = 25E451CF174FEB6C0035A8EA /* Build configuration list for PBXProject "Las Vegas Hot Slots" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25E451CB174FEB6B0035A8EA;
+			productRefGroup = 25E451D5174FEB6C0035A8EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25E451D3174FEB6C0035A8EA /* Las Vegas Hot Slots */,
+				25E451F9174FEB710035A8EA /* Las Vegas Hot SlotsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25E451D2174FEB6C0035A8EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00D7F071849E33E00139901 /* Smooth jazz.mp3 in Resources */,
+				E0A789BE1849E62D00EBC489 /* lever@ipad.png in Resources */,
+				E00D7F011849E33E00139901 /* fx-winning-combination.wav in Resources */,
+				E00D7F021849E33E00139901 /* Gillespie.mp3 in Resources */,
+				E0A789BA1849E62D00EBC489 /* help-button-off@ipad.png in Resources */,
+				E0A789D41849E62D00EBC489 /* buy-button-on.png in Resources */,
+				E0A789D01849E62D00EBC489 /* bet-button-off.png in Resources */,
+				E0A789E61849E62D00EBC489 /* payouts.png in Resources */,
+				E0A789DD1849E62D00EBC489 /* history-button.png in Resources */,
+				E0A789E01849E62D00EBC489 /* luck.png in Resources */,
+				E00D7EF31849E33E00139901 /* 14 Smooth Jazz 1.mp3 in Resources */,
+				E0A789BD1849E62D00EBC489 /* lemon@ipad.png in Resources */,
+				E0A789A91849E62D00EBC489 /* icon_60@2x.png in Resources */,
+				E0A789C51849E62D00EBC489 /* payouts@ipad.png in Resources */,
+				E00D7EFD1849E33E00139901 /* fx-reel-click.mp3 in Resources */,
+				E0A789B11849E62D00EBC489 /* bulb@ipad.png in Resources */,
+				E0A7899D1849E62D00EBC489 /* Default@ipad.png in Resources */,
+				E0A789EC1849E62D00EBC489 /* wildcard.png in Resources */,
+				E0A789BB1849E62D00EBC489 /* help-button-on@ipad.png in Resources */,
+				E0A7899E1849E62D00EBC489 /* Default@ipad2x.png in Resources */,
+				E0A789B61849E62D00EBC489 /* game-center-button-off@ipad.png in Resources */,
+				E0A789D51849E62D00EBC489 /* buy-credits-button.png in Resources */,
+				E0A789D21849E62D00EBC489 /* bulb.png in Resources */,
+				E0A789C21849E62D00EBC489 /* maxbet-button-on@ipad.png in Resources */,
+				25E451E2174FEB6E0035A8EA /* InfoPlist.strings in Resources */,
+				E0A789E11849E62D00EBC489 /* machine.png in Resources */,
+				E00D7EFA1849E33E00139901 /* fx-insert-coin.wav in Resources */,
+				25E451F4174FEB6F0035A8EA /* ViewController.xib in Resources */,
+				E0A789D81849E62D00EBC489 /* game-center-button-on.png in Resources */,
+				E0A789A61849E62D00EBC489 /* icon_57.png in Resources */,
+				E00D7F051849E33E00139901 /* MY_DAY_OFF.mp3 in Resources */,
+				E0A789B31849E62D00EBC489 /* buy-button-on@ipad.png in Resources */,
+				E0A789AE1849E62D00EBC489 /* bell@ipad.png in Resources */,
+				E0A789BF1849E62D00EBC489 /* luck@ipad.png in Resources */,
+				E0A789EA1849E62D00EBC489 /* twitter-button.png in Resources */,
+				E00D7F001849E33E00139901 /* fx-whoosh.wav in Resources */,
+				E0A7899B1849E62D00EBC489 /* Default.png in Resources */,
+				E0A789DA1849E62D00EBC489 /* grapes.png in Resources */,
+				E0A789BC1849E62D00EBC489 /* history-button@ipad.png in Resources */,
+				25E45217174FEE590035A8EA /* config.ini in Resources */,
+				25E45228175202670035A8EA /* HelpViewController.xib in Resources */,
+				E0A789CB1849E62D00EBC489 /* wildcard@ipad.png in Resources */,
+				E0A789C11849E62D00EBC489 /* maxbet-button-off@ipad.png in Resources */,
+				E0A789A01849E62D00EBC489 /* Icon@2x.png in Resources */,
+				E0A789C71849E62D00EBC489 /* pull-button-on@ipad.png in Resources */,
+				E0A789E91849E62D00EBC489 /* seven.png in Resources */,
+				E0A789E21849E62D00EBC489 /* maxbet-button-off.png in Resources */,
+				E0A789B81849E62D00EBC489 /* game-center-on@ipad.png in Resources */,
+				E0A789EB1849E62D00EBC489 /* vegas-lights.png in Resources */,
+				E0A789B01849E62D00EBC489 /* bet-button-on@ipad.png in Resources */,
+				E00D7EF41849E33E00139901 /* Best of Smooth Jazz Guitar.mp3 in Resources */,
+				E0A7899A1849E62D00EBC489 /* Default-568h@2x.png in Resources */,
+				E0A789CE1849E62D00EBC489 /* background.png in Resources */,
+				E0A789C81849E62D00EBC489 /* seven@ipad.png in Resources */,
+				E0A789A71849E62D00EBC489 /* icon_57@2x.png in Resources */,
+				E00D7F041849E33E00139901 /* KennyG & George Benson.mp3 in Resources */,
+				E0A789D61849E62D00EBC489 /* facebook-button.png in Resources */,
+				E0A789CA1849E62D00EBC489 /* vegas-lights@ipad@ipad.png in Resources */,
+				E0E7890B1848B7710004DDCA /* ViewController-Ipad.xib in Resources */,
+				E0A789A51849E62D00EBC489 /* icon_512.png in Resources */,
+				E00D7EF81849E33E00139901 /* fx-cheers.wav in Resources */,
+				E0A789D11849E62D00EBC489 /* bet-button-on.png in Resources */,
+				E0A789B51849E62D00EBC489 /* facebook-button@ipad.png in Resources */,
+				E00D7EFE1849E33E00139901 /* fx-reel-stop.wav in Resources */,
+				E0A789DC1849E62D00EBC489 /* help-button-on.png in Resources */,
+				E0A789B41849E62D00EBC489 /* buy-credits-button@ipad.png in Resources */,
+				E0A789A21849E62D00EBC489 /* icon_29@2x.png in Resources */,
+				E0A789A11849E62D00EBC489 /* icon_29.png in Resources */,
+				E0A789CC1849E62D00EBC489 /* arrow-down.png in Resources */,
+				E0A789E51849E62D00EBC489 /* music-button-on.png in Resources */,
+				E00D7EF71849E33E00139901 /* fx-arm-pulled.wav in Resources */,
+				E0A789E81849E62D00EBC489 /* pull-button-on.png in Resources */,
+				E0A789AD1849E62D00EBC489 /* background@ipad.png in Resources */,
+				E0A7899F1849E62D00EBC489 /* Icon.png in Resources */,
+				E0A789D31849E62D00EBC489 /* buy-button-off.png in Resources */,
+				E00D7EF61849E33E00139901 /* fx-appear.wav in Resources */,
+				E0A789CD1849E62D00EBC489 /* arrow-up.png in Resources */,
+				E0A789DE1849E62D00EBC489 /* lemon.png in Resources */,
+				E0A789AA1849E62D00EBC489 /* icon_72.png in Resources */,
+				E0A789A41849E62D00EBC489 /* icon_40@2x.png in Resources */,
+				E0A789C01849E62D00EBC489 /* machine@ipad.png in Resources */,
+				25F5F4961771FACA0065A168 /* LiberationSansNarrow-Regular.ttf in Resources */,
+				E0A789DF1849E62D00EBC489 /* lever.png in Resources */,
+				E0A789B71849E62D00EBC489 /* game-center-button-on@ipad.png in Resources */,
+				E00D7EFC1849E33E00139901 /* fx-pop.wav in Resources */,
+				E0A789C91849E62D00EBC489 /* twitter-button@ipad.png in Resources */,
+				E0A789D91849E62D00EBC489 /* game-center-on.png in Resources */,
+				25F5F4C8177253B40065A168 /* steelfish rg.ttf in Resources */,
+				E0A789C31849E62D00EBC489 /* music-button-off@ipad.png in Resources */,
+				E0A789E31849E62D00EBC489 /* maxbet-button-on.png in Resources */,
+				25F5F4D4177379A80065A168 /* README.md in Resources */,
+				E0A789CF1849E62D00EBC489 /* bell.png in Resources */,
+				E0A789B21849E62D00EBC489 /* buy-button-off@ipad.png in Resources */,
+				E0A789D71849E62D00EBC489 /* game-center-button-off.png in Resources */,
+				E0E789091848AD280004DDCA /* HelpViewController-Ipad.xib in Resources */,
+				E0A789DB1849E62D00EBC489 /* help-button-off.png in Resources */,
+				E0A7899C1849E62D00EBC489 /* Default@2x.png in Resources */,
+				E00D7F061849E33E00139901 /* Relaxation.mp3 in Resources */,
+				E0A789C41849E62D00EBC489 /* music-button-on@ipad.png in Resources */,
+				E0A789E71849E62D00EBC489 /* pull-button-off.png in Resources */,
+				E0A789AB1849E62D00EBC489 /* arrow-down@ipad.png in Resources */,
+				E00D7F081849E33E00139901 /* The_Day_of_Daze.mp3 in Resources */,
+				E00D7F031849E33E00139901 /* Grover Washington.mp3 in Resources */,
+				E0A789AC1849E62D00EBC489 /* arrow-up@ipad.png in Resources */,
+				E0A789B91849E62D00EBC489 /* grapes@ipad.png in Resources */,
+				E00D7EF91849E33E00139901 /* fx-coin-dropping.wav in Resources */,
+				E00D7EF51849E33E00139901 /* Feels So Good.mp3 in Resources */,
+				E0A789AF1849E62D00EBC489 /* bet-button-off@ipad.png in Resources */,
+				E0A789C61849E62D00EBC489 /* pull-button-off@ipad.png in Resources */,
+				E00D7EFF1849E33E00139901 /* fx-slide.aif in Resources */,
+				E0A789A31849E62D00EBC489 /* icon_40.png in Resources */,
+				E0A789A81849E62D00EBC489 /* icon_60.png in Resources */,
+				E00D7EFB1849E33E00139901 /* fx-jackpot.mp3 in Resources */,
+				E0A789E41849E62D00EBC489 /* music-button-off.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E451F7174FEB710035A8EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E45206174FEB710035A8EA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25E451F8174FEB710035A8EA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25E451D0174FEB6C0035A8EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E451E4174FEB6E0035A8EA /* main.m in Sources */,
+				25E451E8174FEB6E0035A8EA /* AppDelegate.m in Sources */,
+				25E451F1174FEB6F0035A8EA /* ViewController.m in Sources */,
+				25E4521B174FEEEE0035A8EA /* General.m in Sources */,
+				25E4521E1750A9980035A8EA /* GameMechanics.m in Sources */,
+				25E452211750FFBE0035A8EA /* GameCenterManager.m in Sources */,
+				25E45227175202670035A8EA /* HelpViewController.m in Sources */,
+				25E4523217520CDA0035A8EA /* Audio.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E451F5174FEB710035A8EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E45209174FEB710035A8EA /* Liberty_BellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25E45200174FEB710035A8EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25E451D3174FEB6C0035A8EA /* Las Vegas Hot Slots */;
+			targetProxy = 25E451FF174FEB710035A8EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25E451E0174FEB6E0035A8EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25E451E1174FEB6E0035A8EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25E451F2174FEB6F0035A8EA /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25E451F3174FEB6F0035A8EA /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		25E45204174FEB710035A8EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25E45205174FEB710035A8EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25E4520A174FEB710035A8EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Brian Appell";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "4FC052DE-B92E-458A-8FD9-CFD12EBE83EF";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25E4520B174FEB710035A8EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Brian Appell";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "4FC052DE-B92E-458A-8FD9-CFD12EBE83EF";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25E4520D174FEB710035A8EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Liberty Bell/Las Vegas Hot Slots-Prefix.pch";
+				INFOPLIST_FILE = "Liberty Bell/Las Vegas Hot Slots-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Liberty Bell/Flurry\"",
+					"\"$(SRCROOT)/Liberty Bell/FlurryAds\"",
+					"\"$(SRCROOT)/Liberty Bell/Chartboost\"",
+				);
+				PRODUCT_NAME = "Las Vegas Hot Slots";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25E4520E174FEB710035A8EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Liberty Bell/Las Vegas Hot Slots-Prefix.pch";
+				INFOPLIST_FILE = "Liberty Bell/Las Vegas Hot Slots-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Liberty Bell/Flurry\"",
+					"\"$(SRCROOT)/Liberty Bell/FlurryAds\"",
+					"\"$(SRCROOT)/Liberty Bell/Chartboost\"",
+				);
+				PRODUCT_NAME = "Las Vegas Hot Slots";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		25E45210174FEB710035A8EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Liberty Bell.app/Liberty Bell";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Liberty Bell/Liberty Bell-Prefix.pch";
+				INFOPLIST_FILE = "Liberty BellTests/Las Vegas Hot SlotsTests-Info.plist";
+				PRODUCT_NAME = "Las Vegas Hot SlotsTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		25E45211174FEB710035A8EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Liberty Bell.app/Liberty Bell";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Liberty Bell/Liberty Bell-Prefix.pch";
+				INFOPLIST_FILE = "Liberty BellTests/Las Vegas Hot SlotsTests-Info.plist";
+				PRODUCT_NAME = "Las Vegas Hot SlotsTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25E451CF174FEB6C0035A8EA /* Build configuration list for PBXProject "Las Vegas Hot Slots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E4520A174FEB710035A8EA /* Debug */,
+				25E4520B174FEB710035A8EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E4520C174FEB710035A8EA /* Build configuration list for PBXNativeTarget "Las Vegas Hot Slots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E4520D174FEB710035A8EA /* Debug */,
+				25E4520E174FEB710035A8EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E4520F174FEB710035A8EA /* Build configuration list for PBXNativeTarget "Las Vegas Hot SlotsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E45210174FEB710035A8EA /* Debug */,
+				25E45211174FEB710035A8EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25E451CC174FEB6C0035A8EA /* Project object */;
+}

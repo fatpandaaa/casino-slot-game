@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
@@ -25,9 +26,7 @@
                 <outlet property="closeProductsButton" destination="dZn-vj-TSG" id="UpX-qu-V1W"/>
                 <outlet property="coinsContainer" destination="HoY-2L-8Qz" id="fV8-ie-0GS"/>
                 <outlet property="coinsLabel" destination="cc4-UA-TfX" id="0QW-OE-sug"/>
-                <outlet property="coinsTitleLabel" destination="8wR-0x-1cE" id="WB9-JG-1az"/>
                 <outlet property="creditsLabel" destination="ueY-j1-YQj" id="qqQ-TY-WAc"/>
-                <outlet property="creditsTitleLabel" destination="lYm-cL-Y6p" id="kmu-LU-stf"/>
                 <outlet property="facebookButton" destination="mPj-kg-DZ9" id="CLo-Zm-qYN"/>
                 <outlet property="helpButton" destination="HiM-uF-psT" id="UWi-xc-JP4"/>
                 <outlet property="helpButtonContainer" destination="MUz-O0-UZJ" id="Qvc-tQ-Jhh"/>
@@ -57,8 +56,6 @@
                 <outlet property="virtualArmButton" destination="K4W-5N-Srp" id="Fdm-gg-l4X"/>
                 <outlet property="winsContainer" destination="JII-k1-bYM" id="0v2-ji-5St"/>
                 <outlet property="winsLabel" destination="jm0-ho-9Mj" id="AvR-Ka-bRl"/>
-                <outlet property="winsTitleLabel" destination="Zbk-eb-HD3" id="JMl-Cv-QZz"/>
-                <outlet property="winsTitleLabel2" destination="74v-Ml-XuV" id="y1w-b5-f4w"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -70,8 +67,8 @@
                     <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="em7-Ka-rqv">
-                            <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vegas-lights@ipad.png" id="em7-Ka-rqv">
+                            <rect key="frame" x="0.0" y="6" width="768" height="998"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         </imageView>
                         <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" id="LSj-Rk-lXQ">
@@ -90,11 +87,15 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <view contentMode="scaleToFill" id="LxN-Ev-pNO" userLabel="Reel Container">
-                            <rect key="frame" x="147" y="226" width="474" height="189"/>
+                            <rect key="frame" x="156" y="230" width="443" height="199"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="white.png" id="Fb4-Q0-eXq">
+                                    <rect key="frame" x="-17" y="-10" width="508" height="209"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
                                 <view contentMode="scaleToFill" id="6hb-Y7-xAD" userLabel="reel1">
-                                    <rect key="frame" x="13" y="6" width="141" height="1100"/>
+                                    <rect key="frame" x="13" y="6" width="110" height="1110"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
@@ -111,12 +112,20 @@
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         </view>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="machine.png" id="N6B-yf-BuG">
-                            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="machine@ipad.png" id="N6B-yf-BuG">
+                            <rect key="frame" x="-9" y="-32" width="791" height="1059"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vegas-lights@ipad@ipad.png" id="cZM-Ik-1jE">
-                            <rect key="frame" x="0.0" y="0.0" width="768" height="181"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="adjusting image.png" id="cf3-hC-FBp">
+                            <rect key="frame" x="148" y="-9" width="477" height="185"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="adj_2.png" id="l1P-9O-DMx">
+                            <rect key="frame" x="62" y="-21" width="654" height="200"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vegas-lights.png" id="cZM-Ik-1jE">
+                            <rect key="frame" x="67" y="-1" width="647" height="177"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="iWo-ej-XOm">
@@ -124,105 +133,81 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         </adBannerView>
                         <view contentMode="scaleToFill" id="AVI-TO-rwM" userLabel="bilb container">
-                            <rect key="frame" x="68" y="189" width="631" height="226"/>
+                            <rect key="frame" x="65" y="203" width="631" height="226"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bulb@ipad.png" id="fR7-EK-x4L">
-                                    <rect key="frame" x="20" y="33" width="48" height="38"/>
+                                    <rect key="frame" x="50" y="33" width="48" height="38"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 </imageView>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bulb@ipad.png" id="RTa-og-a69">
-                                    <rect key="frame" x="7" y="79" width="48" height="38"/>
+                                    <rect key="frame" x="44" y="79" width="48" height="38"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 </imageView>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bulb@ipad.png" id="3pG-OI-P7E">
-                                    <rect key="frame" x="7" y="125" width="48" height="38"/>
+                                    <rect key="frame" x="45" y="127" width="48" height="46"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 </imageView>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bulb@ipad.png" id="rjR-uz-s6P">
-                                    <rect key="frame" x="20" y="171" width="48" height="38"/>
+                                    <rect key="frame" x="53" y="179" width="48" height="44"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 </imageView>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bulb@ipad.png" id="jIK-Tc-r0b">
-                                    <rect key="frame" x="558" y="171" width="48" height="38"/>
+                                    <rect key="frame" x="539" y="193" width="48" height="38"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 </imageView>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bulb@ipad.png" id="59E-gH-Itp">
-                                    <rect key="frame" x="575" y="125" width="48" height="38"/>
+                                    <rect key="frame" x="552" y="143" width="48" height="38"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 </imageView>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bulb@ipad.png" id="1n2-G1-82g">
-                                    <rect key="frame" x="575" y="79" width="48" height="38"/>
+                                    <rect key="frame" x="557" y="88" width="48" height="38"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 </imageView>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bulb@ipad.png" id="Yzs-E9-Xtf">
-                                    <rect key="frame" x="558" y="33" width="48" height="38"/>
+                                    <rect key="frame" x="546" y="36" width="48" height="38"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 </imageView>
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         </view>
                         <view contentMode="scaleToFill" id="HoY-2L-8Qz" userLabel="coin container">
-                            <rect key="frame" x="185" y="520" width="200" height="81"/>
+                            <rect key="frame" x="185" y="551" width="200" height="81"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cc4-UA-TfX">
-                                    <rect key="frame" x="14" y="35" width="179" height="36"/>
+                                    <rect key="frame" x="32" y="50" width="179" height="36"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
-                                </label>
-                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8wR-0x-1cE">
-                                    <rect key="frame" x="45" y="2" width="107" height="22"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                    <color key="textColor" red="0.050980392159999999" green="0.039215686270000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </label>
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         </view>
                         <view contentMode="scaleToFill" id="Osz-Xm-n8P" userLabel="CREDITS CONTANER'">
-                            <rect key="frame" x="385" y="520" width="198" height="81"/>
+                            <rect key="frame" x="385" y="556" width="198" height="81"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ueY-j1-YQj">
-                                    <rect key="frame" x="14" y="30" width="172" height="42"/>
+                                    <rect key="frame" x="3" y="47" width="172" height="42"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
-                                </label>
-                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CREDITS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lYm-cL-Y6p">
-                                    <rect key="frame" x="32" y="-2" width="146" height="29"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                    <color key="textColor" red="0.050980392159999999" green="0.039215686270000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </label>
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         </view>
                         <view contentMode="scaleToFill" id="JII-k1-bYM" userLabel="win container">
-                            <rect key="frame" x="165" y="460" width="438" height="62"/>
+                            <rect key="frame" x="165" y="491" width="438" height="62"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Winner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Zbk-eb-HD3">
-                                    <rect key="frame" x="9" y="11" width="104" height="37"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jm0-ho-9Mj">
-                                    <rect key="frame" x="135" y="11" width="172" height="37"/>
+                                    <rect key="frame" x="135" y="20" width="172" height="37"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Paid" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="74v-Ml-XuV">
-                                    <rect key="frame" x="324" y="11" width="106" height="37"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
@@ -277,26 +262,26 @@
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                             <connections>
-                                <action selector="leaderBoardButtonTapped:" destination="-1" eventType="touchUpInside" id="b89-0b-HLP"/>
+                                <action selector="leaderBoardButtonTapped:" destination="-1" eventType="touchUpInside" id="c2H-n9-oyL"/>
                             </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 </view>
                 <view contentMode="scaleToFill" id="JCv-DN-YIy" userLabel="Controlles container">
-                    <rect key="frame" x="50" y="630" width="675" height="141"/>
+                    <rect key="frame" x="50" y="658" width="675" height="181"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <view contentMode="scaleToFill" id="Hc8-Hz-9U3" userLabel="add coin">
-                            <rect key="frame" x="55" y="10" width="196" height="64"/>
+                            <rect key="frame" x="113" y="42" width="196" height="104"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bet-button-off@ipad.png" id="tsu-Dx-AxK">
-                                    <rect key="frame" x="0.0" y="0.0" width="196" height="64"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="196" height="70"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 </imageView>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="y6Z-qJ-Xv6">
-                                    <rect key="frame" x="1" y="-5" width="196" height="64"/>
+                                    <rect key="frame" x="1" y="4" width="196" height="64"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <state key="normal" image="bet-button-on@ipad.png">
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -309,15 +294,15 @@
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         </view>
                         <view contentMode="scaleToFill" id="HRa-Og-jNp" userLabel="add max">
-                            <rect key="frame" x="12" y="68" width="246" height="62"/>
+                            <rect key="frame" x="72" y="100" width="246" height="96"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="maxbet-button-off@ipad.png" id="H8Z-Vn-uBP">
-                                    <rect key="frame" x="0.0" y="0.0" width="246" height="62"/>
+                                    <rect key="frame" x="0.0" y="11" width="246" height="65"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 </imageView>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pLJ-Fn-Fhq">
-                                    <rect key="frame" x="0.0" y="0.0" width="244" height="60"/>
+                                    <rect key="frame" x="0.0" y="14" width="244" height="60"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <state key="normal" image="maxbet-button-on@ipad.png">
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -330,7 +315,7 @@
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         </view>
                         <view contentMode="scaleToFill" id="I6K-Ok-f35" userLabel="spin">
-                            <rect key="frame" x="343" y="26" width="237" height="90"/>
+                            <rect key="frame" x="356" y="90" width="237" height="90"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pull-button-off@ipad.png" id="9GX-ZA-jUZ">
@@ -400,8 +385,9 @@
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <state key="selected" image="music-button-off@ipad.png"/>
                     <connections>
-                        <action selector="musicButtonTapped:" destination="-1" eventType="touchUpInside" id="Aa2-bu-jZA"/>
+                        <action selector="musicButtonTapped:" destination="-1" eventType="touchUpInside" id="X7y-By-SSy"/>
                     </connections>
                 </button>
                 <view contentMode="scaleToFill" id="aw7-K9-eFq" userLabel="Products">
@@ -521,8 +507,8 @@
                     <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="zam-xk-yqQ">
-                            <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+                        <imageView userInteractionEnabled="NO" alpha="0.85000002384185802" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="zam-xk-yqQ">
+                            <rect key="frame" x="0.0" y="0.0" width="768" height="1027"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <color key="backgroundColor" red="0.050980392159999999" green="0.039215686270000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         </imageView>
@@ -552,6 +538,8 @@
         </view>
     </objects>
     <resources>
+        <image name="adj_2.png" width="640" height="202"/>
+        <image name="adjusting image.png" width="378" height="169"/>
         <image name="background@ipad.png" width="768" height="1024"/>
         <image name="bet-button-off@ipad.png" width="200" height="80"/>
         <image name="bet-button-on@ipad.png" width="200" height="80"/>
@@ -564,14 +552,17 @@
         <image name="game-center-button-on@ipad.png" width="180" height="170"/>
         <image name="help-button-off@ipad.png" width="160" height="160"/>
         <image name="help-button-on@ipad.png" width="160" height="160"/>
-        <image name="machine.png" width="320" height="568"/>
+        <image name="machine@ipad.png" width="768" height="1024"/>
         <image name="maxbet-button-off@ipad.png" width="240" height="80"/>
         <image name="maxbet-button-on@ipad.png" width="240" height="80"/>
+        <image name="music-button-off@ipad.png" width="100" height="120"/>
         <image name="music-button-on@ipad.png" width="100" height="120"/>
         <image name="payouts@ipad.png" width="148" height="70"/>
         <image name="pull-button-off@ipad.png" width="210" height="110"/>
         <image name="pull-button-on@ipad.png" width="210" height="110"/>
         <image name="twitter-button@ipad.png" width="96" height="124"/>
-        <image name="vegas-lights@ipad@ipad.png" width="640" height="202"/>
+        <image name="vegas-lights.png" width="320" height="101"/>
+        <image name="vegas-lights@ipad.png" width="768" height="1024"/>
+        <image name="white.png" width="508" height="209"/>
     </resources>
 </document>

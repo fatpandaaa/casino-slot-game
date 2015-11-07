@@ -17,7 +17,7 @@
 #import "HelpViewController.h"
 #import "Audio.h"
 
-#define kLeaderboardID @"las_vegas.leaderboard"
+#define kLeaderboardID @"com.tom.macau.leaderboard"
 
 #define kInAppPurchaseManagerProductsFetchedNotification @"kInAppPurchaseManagerProductsFetchedNotification"
 #define kInAppPurchaseManagerTransactionFailedNotification @"kInAppPurchaseManagerTransactionFailedNotification"

@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Flurry.h"
 #import "Chartboost.h"
+#import <RevMobAds/RevMobAds.h>
 
 @class ViewController;
 

@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>D01176C3-AD0C-400F-96F1-9B522C834AAF</string>
+	<string>AEEFB132-4384-4BCC-AA26-67C90E5E8149</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Las Vegas Hot Slots</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>2AE393A2-C7B8-4C69-A15F-FB2727AF29B3</key>
-		<string>https://github.com/avalanchemtn/Las-Vegas-Slots.git</string>
+		<key>D0142136-FDAB-4477-8479-D3677D5C4CD6</key>
+		<string>https://bitbucket.org/ahmadawais/lucky-jackpot-vegas-slots.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Las Vegas Hot Slots.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>2AE393A2-C7B8-4C69-A15F-FB2727AF29B3</key>
+		<key>D0142136-FDAB-4477-8479-D3677D5C4CD6</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/avalanchemtn/Las-Vegas-Slots.git</string>
+	<string>https://bitbucket.org/ahmadawais/lucky-jackpot-vegas-slots.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>2AE393A2-C7B8-4C69-A15F-FB2727AF29B3</string>
+	<string>D0142136-FDAB-4477-8479-D3677D5C4CD6</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>2AE393A2-C7B8-4C69-A15F-FB2727AF29B3</string>
+			<string>D0142136-FDAB-4477-8479-D3677D5C4CD6</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Las-Vegas-Slots</string>
+			<string>Lucky Jackpot Vegas Slots</string>
 		</dict>
 	</array>
 </dict>

@@ -26,7 +26,7 @@
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     
-    [Flurry startSession:@"X4HBSDBSXZ5WCN7XBRQM"];
+    [Flurry startSession:@"Y233WNR2KCC7J6FQ2PKW"];
     
     return YES;
 }
@@ -52,18 +52,27 @@
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
     
+    [RevMobAds startSessionWithAppID:@"5305f0cecca6286473b9efe1"];
+    
+    [[RevMobAds session] showBanner];
+    [[RevMobAds session] showFullscreen];
+
+    
     Chartboost *cb = [Chartboost sharedChartboost];
     
-    cb.appId = @"524ad9b716ba47d51c000009";
-    cb.appSignature = @"3d31f075496424ae98aa403b84adfe3996bec1da";
+    cb.appId = @"5305e6ef9ddc357a15d61001";
+    cb.appSignature = @"dbb65875cfcded053dbe16b4000f3a0367295cbd";
     
     // Begin a user session. Must not be dependent on user actions or any prior network requests.
     [cb startSession];    
     // Show an interstitial
-    [cb showInterstitial];
+    //[cb showInterstitial];
     
     [self.viewController giveFreeCredits];
 }
+
+
+
 
 - (BOOL)shouldRequestInterstitialsInFirstSession
 {

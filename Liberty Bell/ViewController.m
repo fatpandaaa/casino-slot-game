@@ -59,7 +59,7 @@
     productsRequest = [[SKProductsRequest alloc] initWithProductIdentifiers:productIdentifiers];
     productsRequest.delegate = self;
     
-    [self showHideProductButtons:NO];
+    [self showHideProductButtons:YES];
     
     [productsRequest start];
 }
@@ -70,14 +70,16 @@
     
     if ([theseProducts count] > 0)
     {
+        
         for (int i = 0; i < [theseProducts count]; i++)
         {
+             NSLog(@"load product succesfully %d ",i);
             SKProduct *temp = [theseProducts objectAtIndex:i];
             
             for (int j = 0; j < [products count]; j++)
             {
                 NSString *tempId = [[products objectAtIndex:j] objectForKey:@"productId"];
-
+                NSLog(@"tempId products");
                 if ([temp.productIdentifier isEqualToString:tempId])
                 {
                     [productObjects setObject:temp forKey:tempId];
@@ -98,6 +100,7 @@
 
 - (void) requestDidFinish:(SKRequest *)request
 {
+    NSLog(@"SKRequest requestDidFinish");
 }
 
 - (void) request:(SKRequest *)request didFailWithError:(NSError *)error
@@ -130,8 +133,8 @@
             UIImageView *image;
             if (UI_USER_INTERFACE_IDIOM()==UIUserInterfaceIdiomPad) {
                 image = [[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"%@@ipad.png", str]]];
-                [image setFrame:CGRectMake(x+20, y+70, 134, 188)];
-                x += image.frame.size.width + 50.0;
+                [image setFrame:CGRectMake(x+20, y+20, 50, 70)];
+                x += image.frame.size.width + 150.0;
             }
             else {
                 image = [[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"%@.png", str]]];
@@ -1393,17 +1396,17 @@
 
 - (IBAction) product1ButtonTapped:(id)sender
 {
-    [self initiateProductPurchase:[productObjects objectForKey:@"credit_pack_1"]];
+    [self initiateProductPurchase:[productObjects objectForKey:@"com.tom.macau.tenthousandd"]];
 }
 
 - (IBAction) product2ButtonTapped:(id)sender
 {
-    [self initiateProductPurchase:[productObjects objectForKey:@"credit_pack_2"]];
+    [self initiateProductPurchase:[productObjects objectForKey:@"com.tom.macau.fivehundredd"]];
 }
 
 - (IBAction) product3ButtonTapped:(id)sender
 {
-    [self initiateProductPurchase:[productObjects objectForKey:@"credit_pack_3"]];
+    [self initiateProductPurchase:[productObjects objectForKey:@"com.tom.macau.onethousand"]];
 }
 
 - (IBAction) productsCloseButtonTapped:(id)sender
